@@ -10,6 +10,7 @@ namespace EduToyRental.Pages
 		public IndexModel(ILogger<IndexModel> logger)
 		{
 			_logger = logger;
+			Console.Writeline("this message for first commit purpose!");
 		}
 
 		public void OnGet()
