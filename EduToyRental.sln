@@ -5,10 +5,6 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduToyRental", "EduToyRental\EduToyRental.csproj", "{EBF78FA8-A319-45A1-ACC6-28152C87D5FE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REPOSITORY", "REPOSITORY", "{22F02B52-7C99-45A6-8C90-04AF41F856C7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database Entities", "Entities\Database Entities.csproj", "{9A51AFDB-498A-4493-A40C-9599FF809C4A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,16 +15,9 @@ Global
 		{EBF78FA8-A319-45A1-ACC6-28152C87D5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF78FA8-A319-45A1-ACC6-28152C87D5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF78FA8-A319-45A1-ACC6-28152C87D5FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A51AFDB-498A-4493-A40C-9599FF809C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A51AFDB-498A-4493-A40C-9599FF809C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A51AFDB-498A-4493-A40C-9599FF809C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A51AFDB-498A-4493-A40C-9599FF809C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9A51AFDB-498A-4493-A40C-9599FF809C4A} = {22F02B52-7C99-45A6-8C90-04AF41F856C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23DC6DD1-1BA6-447A-AF37-A861BB476648}
